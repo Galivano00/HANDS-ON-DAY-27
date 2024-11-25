@@ -1,0 +1,20 @@
+import { Navbar } from 'search-ms:displayname=Search%20Results%20in%20BOOTCAMP%20FRONT%20END%20DIBIMBING&crumb=location:D%3A%5CBOOTCAMP%20FRONT%20END%20DIBIMBING\HANDS ON DAY 27'
+import { Footer } from 'search-ms:displayname=Search%20Results%20in%20BOOTCAMP%20FRONT%20END%20DIBIMBING&crumb=location:D%3A%5CBOOTCAMP%20FRONT%20END%20DIBIMBING\HANDS ON DAY 27'
+
+export const App = () => {
+    const name = "Ghaniya"
+    const isSingle = false;
+    console.log(name);
+
+    const readerStatus = () => {
+        if (isSingle) return <h1> Saya belum mencoba</h1>;
+        return <h1> Saya berlima </h1>;
+        };
+
+        return (
+            <div>
+            <Navbar/>
+            <Footer/>
+            </div>
+        )
+}
